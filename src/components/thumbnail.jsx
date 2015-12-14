@@ -1,5 +1,5 @@
 var React = require('react');
-var Badge = require('./badge');
+var Button = require('./button');
 
 module.exports = React.createClass({
 	render: function() {
@@ -9,7 +9,7 @@ module.exports = React.createClass({
 			        <h3>{this.props.header}</h3>
 			        <p>{this.props.description}</p>
 			        <p>
-			        <Badge title={this.props.title} num = {this.props.num}/>			        
+			        <Button title={this.props.title} num = {this.props.num}/>			        
 			        </p>
 			      </div>
 			    </div>
